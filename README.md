@@ -18,7 +18,7 @@ This is an exercise to:
 * Firebase Deployment
 
 ## *Known Bugs & Issues*
-TBD
+Kenneth Smile
 
 ## *Support and contact details*
 Contact:
