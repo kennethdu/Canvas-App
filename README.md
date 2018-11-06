@@ -20,7 +20,7 @@ This is an exercise to:
 * User should be able to choose the amount of points they would like to assign.
 
 ## *Known Bugs & Issues*
-TBD
+Kenneth Smile
 
 ## *Support and contact details*
 Contact:
