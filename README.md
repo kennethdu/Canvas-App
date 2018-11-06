@@ -11,14 +11,14 @@ This is an exercise to:
 * Practice skills (both technical and soft) needed to execute a project as a group.
 
 ## *Specifications*
-* A user should be able to follow the story and decide decisions on their own
-* Based on decisions, the background of the story changes according to context
+* A user should be able to follow along the story with options to progress.
+* Based on decisions, the background of the story changes according to the context of the story.
 
 **Features discussed, but not yet implemented:**
 * Firebase Deployment
 
 ## *Known Bugs & Issues*
-Kenneth Smile
+TBD
 
 ## *Support and contact details*
 Contact:
