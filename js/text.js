@@ -2,7 +2,7 @@ const stories = {
   Welcome: "Long time ago, there a was a boy named Kenneth. He's the future prince of Epicodus. Coming from a royal family, he inherits the bloodline of Amkhokar the son of Dudu. And the queen Julie, the current wife of Dudu. He was destined to rule out Epicodus and bring a new life to a new generation, but there was only one problem. Ethan is coming to doom Epicodus, the fulfiller of the great prophecy. To continue the story pick a side that you want to start with:",
   Welcome1A: "Pick Kenneth: He is born to be the great ruler and protector of Epicodus. Picking the good side could prevent the prophecy to happen. Tragic adventure awaits for this young man.",
   Welcome1B: "Pick Ethan: He is an adopted son and came from poor family. He has a strong hatred for Epicodus for not being able to help the poor. He wants to take upon revenge and destroy Epicodus.",
-  Chapter1A: "It was said that only the next prince can save Epicodus and stop the prophecy being fulfilled from Ethan’s power. The powers of the fate blessed Kenneth with special powers. Each power has special effect. Choose wisely below from the giving options:",
+  Chapter1A: "It was said that only the next prince can save Epicodus and stop the prophecy being fulfilled from Ethan's power. The powers of the fate blessed Kenneth with special powers. Each power has special effect. Choose wisely below from the giving options:",
   Chapter1A2A: "LoudMouth: chant cursed words that whoever hears it becomes petrified.",
   Chapter1A2B: "CopyPaste: perfect copy of anything he sees",
   Chapter1B: "The prophecy was called 'Bruhh-kery', where it will bring chaos, famine, disease, and unknown terrors to Epicodus.  They’ve been expecting this to come on the right time. Ethan was also chosen to fulfill the said prophecy, and it blessed him a special power. Choose below:",
@@ -13,7 +13,7 @@ const stories = {
   Chapter2A3A: "He visited the Great Temple of Boujee and trained",
   Chapter2B: "Kenneth made an exact copy of Him in order to protect his own self from dying. The prophecy is being fulfilled now and he needs to do whatever he can to protect his own city.Manning up by doubling him can match up with whoever give threat to the City",
   Chapter2B3A: "One of his clone encountered a woman in deep danger. He rushed to help",
-  Chapter2BNarrate: "21 Years have passed and Ethan’s hatred grew and became a strong malevolent person. He became stronger when he discovered that he can maximize his power by absorbing people’s energy.",
+  Chapter2BNarrate: "21 Years have passed and Ethan's hatred grew and became a strong malevolent person. He became stronger when he discovered that he can maximize his power by absorbing people’s energy.",
   Chapter2C: "Ethan made a strategic plan on bringing down Epicodus. He thought of poisoning all people in Epicodus so they can feel the pain and the suffering especially for those rich people that never helped the poor, he disgusts them a lot and does not pity nor mercy",
   Chapter2C3A: "Execute out the Plan",
   Chapter2D: "Ethan thought of cloning himself so that he can damage Epicodus in multiple casualties as possible. Obeying the order of the so called “Bruhh-kery”. Torturing people will be the best way to feel what is ‘hatred’ is like and what real ‘pain’ feel like. Becoming the new god of Epicodus is to come",
@@ -37,3 +37,26 @@ const stories = {
   Chapter5B: "Ethan succeeded on bringing down the castle by the help of AJ. When he tried to kill the King, he had a confession that shocked him. Dudu told Ethan that he was the long lost brother of Kenneth. He also had the same forsaken love with a villager. They had a kid before getting forced to marry Julie. They gave fruit to a boy named, Ethan and had to keep memories in private. Dudu feared that he will get overthrown if Amkhokar overhear the fragile situation. He casted out his fellow lover away from Epicodus along with Ethan. She later soon died of cancer, which causing Ethan to be adopted by the Foster’s home. Confused and shocked on what he heard. He used all his power to kill the King. The queen intervene but it was already too late. Aj quick enough to grab the queen and struck her between the chest. Now, they head to face the last man standing, Kenneth. They battled fiercely and violently. Causing the city to tremble, sides by sides they rumble. Ethan brought out Nicole, he held her hostage before sabotaging the castle. Ethan: “You’ve been given choices quite a long time, but this time, I CHOSE to choose what to CHOOSE now. There’s only one winner, BROTHER.” Kenneth surrendered to promise not to hurt her. Aj found this perfect opportunity to take down Kenneth, he quickly used his special power. Then Ethan gave the final blow, causing instant fatality for Kenneth. He fulfilled the prophecy and Epicodus is now fallen into his hands.Welcome to the DARK SIDE!",
   Chapter5C: "Ethan has been cursed after he killed the Queen. It was her back up plan to autofire the curse if ever she gets killed. This curse will cause the person to redo all his bad actions for the last 30 mins. This caused him to Kill AJ and surrendered to the hands of Kenneth. Resulting of insta death to him. Kenneth broke the prophecy and saved Epicodus."
 }
+$(document).ready(function(){
+    $("#welcome1a").text(stories.Welcome1A);
+    $("#chapter1a").text(stories.Chapter1A)
+    $("#welcome1b").text(stories.Welcome1B);
+    $("#chapter1b").text(stories.Chapter1B)
+    $("#loudMouth").click(function(event){
+      event.preventDefault();
+      $("#intro").hide();
+      $("#content").show();
+      $("#chapter1a2a").text(stories.Chapter1A2A);
+      $("#chapter2aNarrate").text(stories.Chapter2ANarrate);
+      $("#chapter2a").text(stories.Chapter2A);
+    });
+    $("#copyPaste").click(function(event){
+      event.preventDefault();
+      $("#intro").hide();
+      $("#content2").show();
+      $("#chapter1a2b").text(stories.Chapter1A2B);
+      $("#chapter2b").text(stories.Chapter2B);
+      $("#chapter2b3a").text(stories.Chapter2B3A);
+
+    });
+ });
